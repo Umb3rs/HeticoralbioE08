@@ -1,5 +1,95 @@
-*{background-color:;}
-body{margin:0;}
+body{
+  background-color:;
+  color:#FFFFFF;
+  font-size:65%;
+  margin:0;
+}
+
+/****************
+                 HEAD
+                      ****************/
+.header{
+  z-index: 10;
+  background-color: #0057B8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  font-family : Century Gothic;
+  text-transform: capitalize;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.primaryMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  height: 65px;
+  margin: 0;
+  padding: 0;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.menuItem a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.menuItem a:not(.buy-button){
+  padding: 3px;
+}
+
+.menuItem:hover:not(.buy-button){
+  /* background-color: white;
+  opacity: 0.6; */
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  /* box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); */
+  transition: 0.3s;
+}
+
+.buy-button:hover{
+  background-color: #FFF;
+  color: #0057B8;
+}
+
+.logo {
+  height: 50px;
+  display: flex;
+  margin: 7px 52px 7px 0;
+}
+
+.buy-button {
+  /* background-color: #0070c9; */
+  /* background: linear-gradient(#FFF, #F0FFFF); */
+  border: 1px solid #FFF;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-align: center;
+  color: #0e1e59;
+}
+
+/****************
+                 BODY
+                      ***************/
+
+main{
+  margin-top: 65px;
+}
+
 .firstpicture{
   height: 840px;
 width: 1480px;
@@ -9,9 +99,28 @@ margin:0;
 .twopicture{
   height: 640px;
 width: 720px;
-margin:150px 0px 0px 50px;
+margin:150px 0px 0px 10px;
+}
+.containertwo{
+  height: 840px;
+  margin:0;
+  width: 650px;
 }
 
+.containertree{
+  margin-top: 30px;
+}
+.containermain{
+  background-color: #0e1e59;
+  display: flex;
+  flex-direction: row;
 
-.containertwo{height: 840px;
-background-color: #0e1e59;}
+}
+.text
+.title{
+  font-size: 9em
+}
+.bluetoothlogo{
+  width: 80px;
+  height: 70px;
+}
