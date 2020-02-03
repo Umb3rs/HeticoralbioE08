@@ -1,0 +1,17 @@
+*{background-color:;}
+body{margin:0;}
+.firstpicture{
+  height: 840px;
+width: 1480px;
+margin:0;
+}
+
+.twopicture{
+  height: 640px;
+width: 720px;
+margin:150px 0px 0px 50px;
+}
+
+
+.containertwo{height: 840px;
+background-color: #0e1e59;}
